@@ -1,6 +1,6 @@
 # sba-command-line-git
 
-# This assessment contains 2 parts. Each part is expalined below.
+# This assessment contains 2 parts. Each part is explained below.
 
 ## Part One: Git Basics
 
