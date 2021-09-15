@@ -1,6 +1,6 @@
 # sba-command-line-git
 
-# This assessment contains 2 parts. Each part is explained below.
+# This assessment contains 2 parts. Each part is explained below. You will have 60 minutes to complete the entire assessment (Parts 1 and 2)
 
 ## Part One: Git Basics
 
@@ -10,10 +10,28 @@
 2. Clone the _forked_ copy to your computer.
 3. Add an `index.html` file to the root directory of the repository.
 4. Open the repository in VS Code.
-5. Add the changes to the staging area.
-6. Save the the changes to your local repository. Include as your message the full command you used to create the index.html file in task 3.
-7. Send the changes to your remote repository.
-8. Create a pull request
+5. Add the following code to your `index.html` file
+
+````
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+	<script src="index.js"></script>
+  </body>
+</html>
+
+````
+6. Add the changes to the staging area.
+7. Save the the changes to your local repository. Include as your message the full command you used to create the index.html file in task 3.
+8. Send the changes to your remote repository.
+9. Create a pull request
 
 ## Part Two: Command Line
 
