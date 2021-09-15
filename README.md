@@ -34,7 +34,7 @@
 6. Create a folder named `folder2` that is a sibling of `folder1`
 7. Navigate to `folder 2`
 8. Add a file named `file2.txt` in `folder2`
-9. Use text commands to add the following text to `folder2.txt` `grapes\ngrapes\napples\noranges\nlimes\nlimes\nlemons\nlemons\ngrapes\npears\npears\nberries` Hint: you will need to use -e along with your command to ensure each item is on separate line (ex. `command -e "text here"`)
+9. Use text commands to add the following text to `folder2.txt`: `grapes\ngrapes\napples\noranges\nlimes\nlimes\nlemons\nlemons\ngrapes\npears\npears\nberries` Hint: you will need to use -e along with your command to ensure each item is on separate line (ex. `command -e "text here"`)
 10. Filter out duplicate adjacent lines from from `folder2.txt` and add the filtered list to a new file named `unique-folder2`
 11. Use the "Invite" button in the top right of the replit.com window to generate a sharable link (as showin in [video](https://www.youtube.com/watch?v=ZAC0TQEU5gI) linked here and above)
 12. Take a screenshot of the Shell showing the commands you used to complete the assignment
