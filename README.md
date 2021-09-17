@@ -1,6 +1,6 @@
 # sba-command-line-git
 
-# This assessment contains 2 parts. Each part is explained below. You will have 60 minutes to complete the entire assessment (Parts 1 and 2)
+# This assessment contains 2 parts. Each part is explained below. You will have 60 minutes to complete the entire assessment (Parts 1 and 2).
 
 ## Part One: Git Basics
 
@@ -39,22 +39,25 @@
 ### Setup: 
 1.  You will need to create a replit.com account to complete this portion. This video provides directions: https://www.youtube.com/watch?v=ZAC0TQEU5gI
 2. Start a new "Bash" repl
-3. Click on "Shell" to run commands in a way similar to Git Bash or Terminal
+3. Click on the "Console" tab to run commands in a way similar to Git Bash or Terminal
 
 ### Use the appropriate commands complete the steps listed below. 
 
 1. Create a folder named `folder1`
 2. Navigate to `folder1`
 3. Add a file named `file1.txt` to `folder1`
-4. Use text commands to add the following text to `file1.txt`: `grapes\napples\noranges\nlimes\nlemons\napples\ngrapes\npears\nberries\nlimes` There should be one item per line in the file. Hint: You will need to use -e along with your command to ensure each item is on separate line (ex. `command -e "text here"`)
-5. Alphabetize the contents of `file1.txt` and add the alphabetized content to a new file named `sorted-folder1.txt`
+4. Use text commands to add the following text to `file1.txt`: `"grapes\napples\noranges\nlimes\nlemons\napples\ngrapes\npears\nberries\nlimes"` There should be one item per line in the file. Hint: You will need to use -e along with your command to ensure each item is on separate line (ex. `command -e "text here"`)
+5. Alphabetize the contents of `file1.txt` and add the alphabetized content to a new file named `sorted-file1.txt`
 6. From your current location in the file system, create a folder named `folder2` that is a **_sibling_** of `folder1` using a single command
 7. From your current location in the file system, Navigate to `folder 2`using a single command
 8. Add a file named `file2.txt` in `folder2`
-9. Use text commands to add the following text to `file2.txt`: `grapes\ngrapes\napples\noranges\nlimes\nlimes\nlemons\nlemons\ngrapes\npears\npears\nberries` Hint: you will need to use -e along with your command to ensure each item is on separate line (ex. `command -e "text here"`)
-10. Filter out duplicate adjacent lines from from `file2.txt` and add the filtered list to a new file named `unique-folder2`
-11. Use the "Invite" button in the top right of the replit.com window to generate a sharable link (as showin in [video](https://www.youtube.com/watch?v=ZAC0TQEU5gI) linked here and above)
-12. Take a screenshot of the Shell showing the commands you used to complete the assignment
-13. Submit your link to the Canvas submission page for this session
-14. Submit your screenshot to the Canvas submission page for this session
+9. Use text commands to add the following text to `file2.txt`: `"grapes\ngrapes\napples\noranges\nlimes\nlimes\nlemons\nlemons\ngrapes\npears\npears\nberries"` Hint: you will need to use -e along with your command to ensure each item is on separate line (ex. `command -e "text here"`)
+10. Filter out duplicate adjacent lines from from `file2.txt` and add the filtered list to a new file named `unique-file2.txt`
+11. Run the command: `exit` in the Shell
+12. Click the `Shell` tab. Located next to the `Console` tab.
+13. Run the command `cat ~/.bash_history > my-history.txt`
+14. Use the "Invite" button in the top right of the replit.com window to generate a sharable link (as showin in [video](https://www.youtube.com/watch?v=ZAC0TQEU5gI) linked here and above)
+15. Take a screenshot of the Shell showing the commands you used to complete the assignment
+16. Submit your link to the Canvas submission page for this session
+17. Submit your screenshot to the Canvas submission page for this session
 
