@@ -40,6 +40,7 @@
 1.  You will need to create a replit.com account to complete this portion. This video provides directions: https://www.youtube.com/watch?v=ZAC0TQEU5gI
 2. Start a new "Bash" repl
 3. Click on the "Console" tab to run commands in a way similar to Git Bash or Terminal
+4. Format your commands with single spaces between commands, options, and arguments. Ex.  `cp file1.txt file2.txt my_directory` `ls -a`
 
 ### Use the appropriate commands complete the steps listed below. 
 
@@ -49,15 +50,15 @@
 4. Use text commands to add the following text to `file1.txt`: `"grapes\napples\noranges\nlimes\nlemons\napples\ngrapes\npears\nberries\nlimes"` There should be one item per line in the file. Hint: You will need to use -e along with your command to ensure each item is on separate line (ex. `command -e "text here"`)
 5. Alphabetize the contents of `file1.txt` and add the alphabetized content to a new file named `sorted-file1.txt`
 6. From your current location in the file system, create a folder named `folder2` that is a **_sibling_** of `folder1` using a single command
-7. From your current location in the file system, Navigate to `folder 2`using a single command
+7. From your current location in the file system, Navigate to `folder2`using a single command
 8. Add a file named `file2.txt` in `folder2`
 9. Use text commands to add the following text to `file2.txt`: `"grapes\ngrapes\napples\noranges\nlimes\nlimes\nlemons\nlemons\ngrapes\npears\npears\nberries"` Hint: you will need to use -e along with your command to ensure each item is on separate line (ex. `command -e "text here"`)
 10. Filter out duplicate adjacent lines from from `file2.txt` and add the filtered list to a new file named `unique-file2.txt`
 11. Run the command: `exit` in the Shell
-12. Click the `Shell` tab. Located next to the `Console` tab.
+12. Click the `Shell` tab. Located next to the `Console` tab in your repl
 13. Run the command `cat ~/.bash_history > my-history.txt`
 14. Use the "Invite" button in the top right of the replit.com window to generate a sharable link (as showin in [video](https://www.youtube.com/watch?v=ZAC0TQEU5gI) linked here and above)
-15. Take a screenshot of the Shell showing the commands you used to complete the assignment
+15. Take a screenshot of the Console showing the commands you used to complete the assignment
 16. Submit your link to the Canvas submission page for this session
 17. Submit your screenshot to the Canvas submission page for this session
 
